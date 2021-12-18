@@ -1,0 +1,53 @@
+/*Arreglos generales*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.margAbajo{
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+.colorDeFondo{
+    background-color: #abe9cd;
+    background-image:linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);   
+}
+.colorDeFondoDos{
+    background-color: #bdd4e7;
+    background-image:linear-gradient(315deg,#8693ab 74%, #bdd4e7 0%,)   
+}
+.transformar{ 
+    transform: translate(400px, 60px)scale(2,1) rotate(10deg)
+}
+/*Transformacion para la pagina de contacto*/
+input {
+    transition: all 2s;       
+}
+input:focus {
+    font-size: 40px;
+}
+
+/*Media Querys*/
+@media (min-width:600px) and (max-width:1024px){ .alto {height: 80%;}
+
+}
+@media (min-width:1025px){
+.alto  {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    height: 80vh;
+    background-color: black
+}
+}
+.colorNegro{
+    color: black;
+}
+
+.galeria{
+    margin: 10px;
+    border: solid black 2px;
+}
+
+.textoGaleria{ text-align: center;
+}
